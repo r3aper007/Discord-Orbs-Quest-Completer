@@ -40,7 +40,9 @@ A powerful, standalone Python automation tool designed to scanning, accepting, a
 - Python 3.7+
 - `requests`
 
-    pip install requests
+    ```bash
+       pip install requests
+    ```
 
 ---
 
