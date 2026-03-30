@@ -637,6 +637,14 @@ class QuestAutocompleter:
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 def main():
+    # --- WINDOWS COLOR FIX START ---
+    if os.name == 'nt':
+        import ctypes
+        kernel32 = ctypes.windll.kernel32
+        # This line tells Windows to enable "Virtual Terminal Processing" (ANSI colors)
+        kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+    # --- WINDOWS COLOR FIX END ---
+
     print(f"""
 {Colors.BOLD}{Colors.CYAN}╔══════════════════════════════════════════════════════════════╗
 ║          Discord-Orbs-Quest-Completer by r3aper007           ║
@@ -672,6 +680,7 @@ def main():
         print()
         log("Stopped.", "info")
         sys.exit(0)
+
 
 
 if __name__ == "__main__":
