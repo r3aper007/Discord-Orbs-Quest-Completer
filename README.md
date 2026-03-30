@@ -3,16 +3,6 @@ A powerful, standalone Python automation tool designed to scanning, accepting, a
 
 ---
 
-## ⚠️ Warning
-
-This tool may violate Discord’s Terms of Service.
-
-- Use at your own risk  
-- Avoid using on your main account  
-- No guarantees against bans  
-
----
-
 ## Table of Contents
 
 - [Features](#features)
