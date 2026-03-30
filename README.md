@@ -19,8 +19,7 @@ A powerful, standalone Python automation tool designed to scanning, accepting, a
   - [QuestAutocompleter](#questautocompleter)
 - [Workflow](#workflow)
 - [Supported Task Types](#supported-task-types)
-- [Disclaimer](#disclaimer)
-
+  
 ---
 
 ## Features
@@ -199,6 +198,6 @@ The main class controlling the entire auto-complete logic.
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is for educational purposes only. Using automation tools may result in account restrictions.
